@@ -172,7 +172,7 @@ var windowWidth = $(window).width();
             $(".showcase span").find("i:last-child").click();
             //description();
         }
-        var timer=setInterval(timer_fn,2000);
+        var timer=setInterval(timer_fn,4000);
         function description(){
             $(".showcase").children(".description").find("p").html($(".showcase").children("img").eq(getIndex()).attr("alt"));
         }

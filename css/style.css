@@ -434,6 +434,10 @@
         margin:0 auto;
         background-color: rgb(20,20,20);
     }
+    .nav ul li a{
+        color: yellow;
+    }
+
     .overlay iframe{
         margin-left:180px;
 /*        margin-right:30px;*/
