@@ -246,7 +246,7 @@
         display: none;
     }  
        #navBtn{
-            float:left;
+            float:right;
             width: 25px;
             height: 24px;
             text-align: center;
@@ -310,7 +310,7 @@
     }
 
     .list .sub-option img{
-        width:100%;
+        width:200%;
         height:100%;
     }
     .sub-option div:nth-child(2),.sub-option div:nth-child(3){
