@@ -33,7 +33,7 @@
         width:300px;
         height:auto;
         margin:0 auto;
-        background-color:rgb(10,10,10);
+        background-color: blue;
     }
     header:after{
         content:".";
@@ -432,7 +432,7 @@
         width:950px;
         height:auto;
         margin:0 auto;
-        background-color: rgb(20,20,20);
+        background-color: blue;
     }
     .nav ul li a{
         color: yellow;

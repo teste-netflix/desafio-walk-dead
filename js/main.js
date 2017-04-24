@@ -229,15 +229,15 @@ var windowWidth = $(window).width();
         }
     });
 
-    $(".list .non-mobile .left div").eq(0).children("img").click(function (){
-        window.open("./house-of-cards.html");
-    });
-    $(".list .mobile .sub-option div").eq(0).children("img").click(function (){
-        window.open("./house-of-cards.html");
-    });
-    $(".list .mobile .sub-option:first-child").find("img").eq(0).click(function (){
-        console.log($(this).attr("src"));
-    });
+    // $(".list .non-mobile .left div").eq(0).children("img").click(function (){
+    //     window.open("./house-of-cards.html");
+    // });
+    // $(".list .mobile .sub-option div").eq(0).children("img").click(function (){
+    //     window.open("./house-of-cards.html");
+    // });
+    // $(".list .mobile .sub-option:first-child").find("img").eq(0).click(function (){
+    //     console.log($(this).attr("src"));
+    // });
 
 
 
