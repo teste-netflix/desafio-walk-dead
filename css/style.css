@@ -45,6 +45,9 @@
     header .search,.nav {
         display:none;
     }
+    .linkHouse{
+        text-decoration: none;
+    }
     .logo {
         float:left;
         position:relative;
@@ -434,6 +437,23 @@
         margin:0 auto;
         background-color: blue;
     }
+    #myList{
+        color: orange;
+    }
+
+    .gif{
+        width: 151px;
+        height: 227px;
+    }
+
+    .linkHouse{
+        text-decoration: none;
+    }
+
+    #textColor h4{
+        color: black;
+    }
+
     .nav ul li a{
         color: yellow;
     }
