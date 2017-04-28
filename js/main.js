@@ -6,6 +6,8 @@ var windowWidth = $(window).width();
     $(".overlay").css({
         "height" : windowHeight + "px"
     });
+
+    
     
     $(".showcase-text").children("div").eq(0).click(function(event) {
         clearInterval(timer);
@@ -21,6 +23,9 @@ var windowWidth = $(window).width();
             height:560
         });
     });//click method
+
+
+
     $("#closeBtn").click(function(event){
         $(".overlay").children("iframe").remove();
         event.preventDefault();
