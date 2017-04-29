@@ -6,8 +6,6 @@ var windowWidth = $(window).width();
     $(".overlay").css({
         "height" : windowHeight + "px"
     });
-
-    
     
     $(".showcase-text").children("div").eq(0).click(function(event) {
         clearInterval(timer);
@@ -23,9 +21,6 @@ var windowWidth = $(window).width();
             height:560
         });
     });//click method
-
-
-
     $("#closeBtn").click(function(event){
         $(".overlay").children("iframe").remove();
         event.preventDefault();
@@ -177,7 +172,7 @@ var windowWidth = $(window).width();
             $(".showcase span").find("i:last-child").click();
             //description();
         }
-        var timer=setInterval(timer_fn,4000);
+        var timer=setInterval(timer_fn,2000);
         function description(){
             $(".showcase").children(".description").find("p").html($(".showcase").children("img").eq(getIndex()).attr("alt"));
         }
@@ -234,15 +229,15 @@ var windowWidth = $(window).width();
         }
     });
 
-    // $(".list .non-mobile .left div").eq(0).children("img").click(function (){
-    //     window.open("./house-of-cards.html");
-    // });
-    // $(".list .mobile .sub-option div").eq(0).children("img").click(function (){
-    //     window.open("./house-of-cards.html");
-    // });
-    // $(".list .mobile .sub-option:first-child").find("img").eq(0).click(function (){
-    //     console.log($(this).attr("src"));
-    // });
+    $(".list .non-mobile .left div").eq(0).children("img").click(function (){
+        window.open("./house-of-cards.html");
+    });
+    $(".list .mobile .sub-option div").eq(0).children("img").click(function (){
+        window.open("./house-of-cards.html");
+    });
+    $(".list .mobile .sub-option:first-child").find("img").eq(0).click(function (){
+        console.log($(this).attr("src"));
+    });
 
 
 

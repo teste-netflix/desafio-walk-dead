@@ -432,18 +432,7 @@
         width:950px;
         height:auto;
         margin:0 auto;
-        background-image: url(http://www.gatosmania.com/Uploads/gatosmania.com/ImagensGrandes/fotos-de-gatinhos-8.jpg);
         background-color: rgb(20,20,20);
-    }
-    .teste{
-        margin-right: 120px;
-        height:62px;
-        line-height:62px;
-        float:left;
-        margin-bottom:10px;
-        /*margin-top:-5px;*/
-        /*background-color:red;*/
-        display:inline-block;
     }
     .overlay iframe{
         margin-left:180px;
@@ -827,9 +816,6 @@
     }
     .list .mobile1 .sub-episode,.mobile1 .sub-episode img{
         width:232px;
-    }
-    #episode4 .list .mobile1 .sub-episode,.mobile1 .sub-episode img{
-        width:200%;
     }
     .list .mobile1 .sub-episode{
         float:left;
