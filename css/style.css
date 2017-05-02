@@ -437,6 +437,16 @@
         margin:0 auto;
         background-color: rgb(20,20,20);
     }
+    .teste{
+        margin-right: 120px;
+        height:62px;
+        line-height:62px;
+        float:left;
+        margin-bottom:10px;
+        /*margin-top:-5px;*/
+        /*background-color:red;*/
+        display:inline-block;
+    }
     .linkHouse{
         text-decoration: none;
     }
